@@ -1,4 +1,61 @@
-.golden-img {
-    max-width: 50%;
-    height: auto;
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f2f9ff;
+    color: #222;
+    margin: 20px;
 }
+
+main {
+    width: 900px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #00457C;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Navigation menu */
+nav {
+    background-color: #004c75;
+    padding: 12px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffe48a;
+}
+
+/* Form styling */
+form {
+    background: #e8f4ff;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+input, select {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 250px;
+}
+
